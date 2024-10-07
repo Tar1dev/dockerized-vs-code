@@ -3,6 +3,4 @@ services:
   vs-code:
     build: .
     ports:
-      - "8080:8080"
-    volumes:
-      - ./config:/root/.config/code-server/
+      - "80:8080"

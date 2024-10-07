@@ -7,6 +7,8 @@ RUN curl -fsSL https://code-server.dev/install.sh | sh
 
 RUN mkdir -p /root/.config/code-server/
 
+COPY config/* /root/.config/code-server/
+
 EXPOSE 8080
 
 CMD [ "/usr/bin/code-server" ]

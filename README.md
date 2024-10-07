@@ -20,7 +20,7 @@ nano config/config.yaml
 
 4. Run **docker-compose** !
 ```bash
-sudo docker-compose up -d
+sudo docker-compose up --build
 ```
 
-5. Now, visit http://127.0.0.1:8080/ and login with the password you wrote in the config file.
+5. Now, visit http://127.0.0.1 and login with the password you wrote in the config file.
